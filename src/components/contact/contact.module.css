@@ -1,0 +1,21 @@
+.input {
+    border: 1.5px solid #ccc;
+    padding: 1rem;
+    width: 350px;
+    height: 42px;
+    outline: none;
+
+}
+.input:focus,
+.message:focus{
+    border-color: #000 ;
+}
+
+.message {
+    border: 1.5px solid #ccc;
+    padding: 1rem;
+    width: 350px;
+    min-height: 5rem;
+    outline: none;
+    
+}

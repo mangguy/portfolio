@@ -1,0 +1,31 @@
+.logout {
+    padding: 0rem 1.2rem;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 20px;
+    align-items: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+}
+
+.logout:hover {
+    color: #fff;
+    background-color: #000;
+    
+}
+
+.login {
+    padding: 0rem 2rem;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 20px;
+    align-items: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.login:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+

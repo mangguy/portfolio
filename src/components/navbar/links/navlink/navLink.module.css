@@ -1,0 +1,35 @@
+.container {
+    padding: .5rem 1rem;
+    padding-bottom: 0.5rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 9;
+    background-color: #000;
+    transition: width 0.3s ease;
+}
+
+.container:hover::after {
+    width: 80%; /* ขยายความกว้างเมื่อ hover */
+}
+
+.active {
+    color: #000;
+}
+
+.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 9;
+    width: 80%; /* เส้นล่างขยายเต็มเมื่อเป็น active */
+    height: 2px;
+    background-color: #000;
+}
